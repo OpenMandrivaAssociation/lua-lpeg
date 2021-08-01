@@ -1,6 +1,6 @@
-%global luaver 5.3
+%global luaver %(lua -e 'print(_VERSION)' | cut -d ' ' -f 2)
 %global luajitver 2.1
-%global luajitlver 5.1
+%global luajitlver %(luajit -e 'print(_VERSION)' | cut -d ' ' -f 2)
 %global lualibdir %{_libdir}/lua/%{luaver}
 %global luapkgdir %{_datadir}/lua/%{luaver}
 %global luajitlibdir %{_libdir}/lua/%{luajitlver}
