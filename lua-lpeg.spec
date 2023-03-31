@@ -8,7 +8,7 @@
 
 Name:           lua-lpeg
 Version:	1.0.2
-Release:        1
+Release:        2
 Summary:        Parsing Expression Grammars for Lua
 
 Group:          Development/Other
