@@ -43,12 +43,12 @@ Grammars (PEGs).
 %{__chmod} -x test.lua
 
 %build
-%make_build COPT="%{optflags} -DNDEBUG"
+%make_build COPT="%{optflags} -DNDEBUG" CC="%{__cc}"
 
 mv lpeg.so lpeg.so.lua
 
 %make_build clean
-%make_build COPT="%{optflags} -DNDEBUG -I%{_includedir}/luajit-2.1"
+%make_build COPT="%{optflags} -DNDEBUG -I%{_includedir}/luajit-2.1" CC="%{__cc}"
 
 
 %install
