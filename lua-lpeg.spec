@@ -7,8 +7,8 @@
 %global luajitpkgdir %{_datadir}/lua/%{luajitlver}
 
 Name:           lua-lpeg
-Version:	1.0.2
-Release:        2
+Version:	1.1.0
+Release:        1
 Summary:        Parsing Expression Grammars for Lua
 
 Group:          Development/Other
@@ -29,6 +29,7 @@ Grammars (PEGs).
 
 %package -n luajit-lpeg
 Summary:	Parsing Expression Grammars for Luajit
+Requires:	luajit
 
 %description -n luajit-lpeg
 LPeg is a new pattern-matching library for Luajit, based on Parsing Expression
