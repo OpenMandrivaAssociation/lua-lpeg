@@ -13,7 +13,7 @@ Summary:        Parsing Expression Grammars for Lua
 
 Group:          Development/Other
 License:        MIT
-URL:            http://www.inf.puc-rio.br/~roberto/lpeg/
+URL:            https://www.inf.puc-rio.br/~roberto/lpeg/
 Source0:        http://www.inf.puc-rio.br/~roberto/lpeg/lpeg-%{version}.tar.gz
 
 BuildRequires:  lua-devel
