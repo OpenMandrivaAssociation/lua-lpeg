@@ -16,6 +16,7 @@ License:        MIT
 URL:            https://www.inf.puc-rio.br/~roberto/lpeg/
 Source0:        http://www.inf.puc-rio.br/~roberto/lpeg/lpeg-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  lua-devel
 BuildRequires:	lua
 Requires:       lua
